@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11-dars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body class="body">
+    <div class="container-fluid">
+        <div class="group d-flex  align-items-start justify-content-start">
+            <div class="box border mx-auto mx-auto fs-5 p-2 @font-fammly-roboto" style="width: 320px; ">
+                <header>
+                    <div class="header d-flex justify-content-around">
+                        <i class="fa-solid fa-bars  fs-4"></i>
+                        <img src="./assets/images/logo.png" alt="" class="header_img">
+                        <i class="fa-regular fa-bell  fs-4"></i>
+                    </div>
+                    <br><br>
+
+                    <div class="header d-flex justify-content-around align-items-center">
+                        <img src="./assets/images/odam.png " alt="" class="rasm rounded-circle-danger">
+                        <div class="textlar">
+
+                            <p class="text fs-5">Анатолий Токов
+                                <br>
+                                <span class="text2 fs-6 text-secondary">Администратор</span>
+                            </p>
+
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-caret-down" viewBox="0 0 16 16">
+                            <path
+                                d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659" />
+                        </svg>
+
+                    </div>
+                    <hr>
+
+                    <button type="button" class="btn btn-outline-light w-100">
+                        <div class="qism d-flex justify-content-start gap-50 border-right">
+                            <i class="fa-solid fa-ellipsis fs-4 mx-auto p-2 text-secondary" style="width: -50px;"></i>
+                            <a href="#" class="none text-decoration-none  text-secondary">
+                                <p class="text mx-auto fs-5 p-2" style="width: 300px; ">Шахматка</p>
+                            </a>
+                        </div>
+                    </button>
+
+                    <button type="button" class="btn btn-outline-light w-100">
+                        <div class="qism d-flex justify-content-start gap-50 ">
+                            <i class="fa-solid fa-plus fs-4 mx-auto p-2 text-secondary" style="width: -50px;"></i>
+                            <a href="#" class="none text-decoration-none  text-secondary">
+                                <p class="text  mx-auto fs-5 p-2" style="width: 300px;">Создать бронь</p>
+                            </a>
+                        </div>
+                    </button>
+
+                    <button type="button" class="btn btn-outline-light w-100">
+                        <div class="qism d-flex justify-content-start gap-50 ">
+                            <i class="fa-solid fa-calendar-days fs-4 mx-auto p-2 text-secondary"
+                                style="width: -50px;"></i>
+                            <a href="#" class=" none text-decoration-none text-secondary">
+                                <p class="text mx-auto fs-5 p-2 @font-fammly-roboto" style="width: 300px;">Список броней
+                                </p>
+                            </a>
+
+                        </div>
+                    </button>
+
+
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fa-solid fa-print fs-4 mx-auto p-2 text-secondary"
+                                        style="width: 50px;"></i>
+                                    <div class="p text mx-auto fs-6 p-2 @font-fammly-roboto" style="width: 800px;">
+                                        Прием и размещение</div>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body fs-6">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fa-solid fa-calculator fs-4 mx-auto p-2 text-secondary"
+                                        style="width: 50px;"></i>
+                                    <p class="text mx-auto fs-5 p-2 @font-fammly-roboto" style="width: 800px;">Расчеты
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body fs-6">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="fa-solid fa-user-group fs-4 mx-auto p-2 text-secondary"
+                                        style="width: 50px;"></i>
+                                    <p class="text  mx-auto mx-auto fs-5 p-2 @font-fammly-roboto" style="width: 800px;">
+                                        Служба отеля</p>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body fs-6">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    <i class="fa-solid fa-chart-simple fs-4 mx-auto p-2 text-secondary"
+                                        style="width: 50px"></i>
+                                    <p class="text mx-auto mx-auto fs-5 p-2 @font-fammly-roboto" style="width: 800px;">
+                                        Отчеты</p>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body fs-6">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    <i class="fa-solid fa-arrow-trend-up  fs-4 mx-auto p-2 text-secondary"
+                                        style="width: 50px"></i>
+                                    <p class="text mx-auto mx-auto fs-5 p-2 @font-fammly-roboto" style="width: 800px;">
+                                        Финансовая аналитика</p>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body fs-6">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    <i class="fa-solid fa-gear  fs-4 mx-auto p-2 text-secondary"
+                                        style="width: 50px"></i>
+                                    <p class="text mx-auto mx-auto fs-5 p-2 @font-fammly-roboto" style="width: 800px;">
+                                        Настройка</p>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body fs-6">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+
+            </div>
+            <div class="box2   border mx-auto mx-auto fs-5 p-2 @font-fammly-roboto" style="width: 1132px;">
+                <div class="guruh d-flex align-items-center justify-content-around">
+                    <p class="pech fs-3 text-secondary h-0 mx-auto mx-auto p-2 @font-fammly-roboto"
+                        style="width: 1000px;"><strong>Шаблоны</strong></p>
+                    <button type="button fs-4 mx-auto mx-auto p-2 @font-fammly-roboto" style="width: 150px;"
+                        class="btn btn-primary">посмотреть</button>
+                </div>
+                <div class="guruh15 d-flex align-items-start">
+                    <p class="pech10 text-secondary fs-5 mx-auto mx-auto p-2 @font-fammly-roboto" style="width:px;">
+                        счёт (инвойс)</p>
+                    <p class="pech2 text-secondary fs-5 mx-auto mx-auto p-2 @font-fammly-roboto" style="width: px;">
+                        подтверждение брони</p>
+                    <p class="pech5 text-secondary ">
+                        аннуляция брони</p>
+                    <p class="pech6 text-secondary fs-5 mx-auto mx-auto p-2 @font-fammly-roboto" style="width: px;">
+                        внутренние правила</p>
+                </div>
+                <hr>
+                <p class="pech3 fs-3 text-secondary h-0 mx-auto mx-auto p-2 @font-fammly-roboto" style="width: 1100px">
+                    логотип гостиницы</p>
+                <div class="guruh2 d-flex align-items-center">
+                    <i class="fa-solid fa-circle-exclamation fs-3 text-primary"></i>
+                    <p class="text2 text-primary  mx-auto mx-auto p-2 @font-fammly-roboto" style="width: 1050px">
+                        Максимальный размер файла 10MБ. Поддерживаются изображения форматов .jpeg, .png, .gif.</p>
+                </div>
+                <img src="./assets/images/img.png" alt="" class="rasm2">
+                <br>
+                <br><br>
+
+                <form>
+                    <p class="text4 text-secondary">слоган гостиницы</p>
+                    <input type="text" class="input rounded  mx-auto mx-auto p-2 @font-fammly-roboto"
+                        style="width: 1090px " required placeholder="Введите слоган гостиницы">
+                    <br>
+                    <br>
+                    <div class="guruh d-flex align-items-center justify-content-around">
+                        <div class="time ">
+                            <p class="text4 text-secondary">слоган гостиницы</p>
+                            <select class="mx-auto rounded  mx-auto p-2 @font-fammly-roboto" style="width: 520px;">
+                                <option value="Pyccий">Pyccий</option>
+                                <option value="uzbek">uzbek</option>
+                                <option value="CЩA">CЩA</option>
+                                <option value="Fransuz">Fransuz</option>
+                            </select>
+                        </div>
+                        <div class="time ">
+                            <p class="text4 text-secondary">дополнительный язык</p>
+                            <select class="mx-auto  rounded mx-auto p-2 @font-fammly-roboto" style="width: 520px;">
+                                <option value="нeт">нeт</option>
+                                <option value="да">да</option>
+                                <option value="vs">vs</option>
+
+                            </select>
+                        </div>
+
+
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="time d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn fs-4 p-2 @font-fammly-roboto"
+                            style="width: 140px;">отменить</button>
+                        <button type="button" class="btn fs-4 btn-primary  p-2 @font-fammly-roboto"
+                            style="width: 140px;">сохранить</button>
+                    </div>
+                </form>
+                <br>
+                <br>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
